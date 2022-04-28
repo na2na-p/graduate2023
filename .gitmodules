@@ -1,0 +1,3 @@
+[submodule "surveinyance"]
+	path = surveinyance
+	url = https://github.com/na2na-p/surveinyance.git

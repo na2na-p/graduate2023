@@ -1,8 +1,9 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type {NextApiRequest, NextApiResponse} from 'next';
 
-type Data = {
-  name: string
+
+interface Gomamayo {
+  generated: string
 }
 
 /**
@@ -10,9 +11,11 @@ type Data = {
  * @param {NextApiRequest<Data>} res response
  * @return {void}
  */
-export default function handler(
+export default async function handler(
     req: NextApiRequest,
-    res: NextApiResponse<Data>,
+    res: NextApiResponse<Gomamayo>,
 ) {
-  res.status(200).json({name: 'John Doe'});
+  const url = 'https://api.thinaticsystem.com/v1/debobigego';
+  const response: Gomamayo = await fetch(url).then((response) => response.json());
+  res.status(200).json(response);
 }

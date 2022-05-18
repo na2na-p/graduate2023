@@ -10,7 +10,8 @@
   "repository": "/docs",
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "build": "vuepress build src",
+    "lint": "npx eslint --ext .js,.vue . --fix"
   },
   "license": "MIT",
   "devDependencies": {
@@ -20,6 +21,9 @@
     "eslint": "^8.15.0",
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-vue": "^8.7.1",
-    "vuepress": "^1.9.7"
+    "typescript": "^4.6.4",
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-typescript": "^0.3.1",
+    "vuepress-vite": "^2.0.0-beta.45"
   }
 }

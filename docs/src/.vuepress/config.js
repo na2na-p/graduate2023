@@ -1,11 +1,10 @@
-const { description } = require("../../package");
-import { defineConfig } from "vuepress/config";
+const {description} = require('../../package');
 
-export default defineConfig({
+module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: "就職作品プレゼンテーション",
+  title: 'Vuepress Docs Boilerplate',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -17,12 +16,9 @@ export default defineConfig({
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ["meta", { name: "theme-color", content: "#3eaf7c" }],
-    ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
-    ["meta", {
-      name: "apple-mobile-web-app-status-bar-style",
-      content: "black",
-    }],
+    ['meta', {name: 'theme-color', content: '#3eaf7c'}],
+    ['meta', {name: 'apple-mobile-web-app-capable', content: 'yes'}],
+    ['meta', {name: 'apple-mobile-web-app-status-bar-style', content: 'black'}],
   ],
 
   /**
@@ -31,33 +27,33 @@ export default defineConfig({
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: "",
+    repo: '',
     editLinks: false,
-    docsDir: "",
-    editLinkText: "",
+    docsDir: '',
+    editLinkText: '',
     lastUpdated: false,
     nav: [
       {
-        text: "Guide",
-        link: "/guide/",
+        text: 'Guide',
+        link: '/guide/',
       },
       {
-        text: "Config",
-        link: "/config/",
+        text: 'Config',
+        link: '/config/',
       },
       {
-        text: "VuePress",
-        link: "https://v1.vuepress.vuejs.org",
+        text: 'VuePress',
+        link: 'https://v1.vuepress.vuejs.org',
       },
     ],
     sidebar: {
-      "/guide/": [
+      '/guide/': [
         {
-          title: "Guide",
+          title: 'Guide',
           collapsable: false,
           children: [
-            "",
-            "using-vue",
+            '',
+            'using-vue',
           ],
         },
       ],
@@ -68,8 +64,7 @@ export default defineConfig({
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: [
-    "@vuepress/plugin-back-to-top",
-    "@vuepress/plugin-medium-zoom",
+    '@vuepress/plugin-back-to-top',
+    '@vuepress/plugin-medium-zoom',
   ],
-});
-module.exports = {};
+};

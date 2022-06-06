@@ -18,7 +18,7 @@
 
 リポジトリは[こちら](https://github.com/na2na-p/gomamayo-deno)です。  
 また、Deno の[サードパーティーモジュール](https://deno.land/x/gomamayo_deno@2.0.4)としても公開しております。  
-デモ用に API を生やしました。展示期間中のみにはなりますが[こちら](#)のページからお試しいただけます。
+デモ用に API を生やしました。展示期間中のみにはなりますが[こちら](/works/gomamayo-deno/playground.html)のページからお試しいただけます。
 
 ## 技術的な詳細
 

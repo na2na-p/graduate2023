@@ -31,4 +31,5 @@
 - (余力あれば)Terraform/Kubernetes 関係で何か。
 
 ## メモ
+- API仕様は[こちら](/works/surveinyance/api.html)のページに記載しています。
 - 認証はOAuth?(すでにある実装例としてはMiAuthあたり？)

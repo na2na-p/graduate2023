@@ -20,15 +20,17 @@ export default defineUserConfig({
             {
                 text: 'Works',
                 children: [
-                    { text: 'Surveinyance', link: '/works/surveinyance.html' },
-                    { text: 'Gomamayo-deno', link: '/works/gomamayo-deno.html' },
-                    { text: 'chmodGenerator', link: '/works/chmodGenerator.html' },
+                    { text: 'このページについて', link: '/works/aboutThisPage.html' },
+                    { text: 'Surveinyance', link: '/works/surveinyance/' },
+                    { text: 'Gomamayo-deno', link: '/works/gomamayo-deno/' },
+                    { text: 'chmodGenerator', link: '/works/chmodGenerator/' },
                 ]
             },
             {
                 text: 'Links',
                 children: [
                     { text: 'GitHub', link: 'https://github.com/na2na-p' },
+                    { text: 'vuepressGuide(とりあえず)', link: '/guide' },
                 ]
             }
         ]

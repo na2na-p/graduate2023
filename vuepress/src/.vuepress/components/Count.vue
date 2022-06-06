@@ -9,22 +9,22 @@
 </template>
 
 <script>
-import MyButton from "./MyButton.vue";
+import MyButton from './MyButton.vue';
 export default {
-  name: "App",
+  name: 'App',
   components: {
-    MyButton
+    MyButton,
   },
   data() {
     return {
-      count: 0
+      count: 0,
     };
   },
   methods: {
     click() {
       this.count++;
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -38,7 +38,7 @@ export default {
     color:#000000;/*文字色*/
 }
 .sample_box p {
-    margin: 0; 
+    margin: 0;
     padding: 0.5em;
     font-size: 1.1em;
     font-family: 'Trebuchet MS','Hannotate SC','Chalkduster',sans-serif;

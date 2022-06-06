@@ -9,18 +9,18 @@ export default {
   props: {
     type: {
       type: String,
-      default: ""
+      default: '',
     },
     size: {
       type: String,
-      default: ""
-    }
+      default: '',
+    },
   },
   methods: {
     click() {
-      this.$emit("myclick");
-    }
-  }
+      this.$emit('myclick');
+    },
+  },
 };
 </script>
 

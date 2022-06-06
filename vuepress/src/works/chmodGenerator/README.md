@@ -2,4 +2,4 @@
 
 ## 成果物
 
-<Count />
+<ChmodGenerator />

@@ -1,4 +1,6 @@
 import { defaultTheme, defineUserConfig } from 'vuepress'
+import { path } from '@vuepress/utils'
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 
 export default defineUserConfig({
     base: '/',
@@ -6,7 +8,6 @@ export default defineUserConfig({
     title: '就職作品プレゼンテーション',
     description: '就職作品プレゼンテーション',
     head: [
-        // ['link', { rel: 'icon', href: '/images/icon.webp' }], // TODO
         ['meta', { name: 'robots', content: 'noindex, nofollow, noarchive' }],
     ],
 
@@ -35,5 +36,10 @@ export default defineUserConfig({
                 ]
             }
         ]
-    })
+    }),
+  plugins: [
+    registerComponentsPlugin({
+        componentsDir: path.resolve(__dirname, './components'),
+      }),
+  ],
 })

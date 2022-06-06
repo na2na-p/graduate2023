@@ -37,9 +37,9 @@ export default defineUserConfig({
             }
         ]
     }),
-  plugins: [
-    registerComponentsPlugin({
-        componentsDir: path.resolve(__dirname, './components'),
-      }),
-  ],
+    plugins: [
+        registerComponentsPlugin({
+            componentsDir: path.resolve(__dirname, './components'),
+        }),
+    ],
 })

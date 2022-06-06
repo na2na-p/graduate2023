@@ -7,6 +7,7 @@ export default defineUserConfig({
     description: '就職作品プレゼンテーション',
     head: [
         // ['link', { rel: 'icon', href: '/images/icon.webp' }], // TODO
+        ['meta', { name: 'robots', content: 'noindex, nofollow, noarchive' }],
     ],
 
     dest: '../docs',

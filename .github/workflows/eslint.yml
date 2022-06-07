@@ -11,6 +11,6 @@ jobs:
         with:
           node-version: 16.x
       - name: ci
-        run: yarn install --immutable --immutable-cache --check-cache
+        run: cd vuepress && yarn install --immutable --immutable-cache --check-cache
       - name: ESLint
         run: cd vuepress && yarn eslint --ext .js,.vue . --fix

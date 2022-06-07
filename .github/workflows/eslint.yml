@@ -13,4 +13,4 @@ jobs:
       - name: ci
         run: cd vuepress && yarn install --immutable --immutable-cache --check-cache
       - name: ESLint
-        run: cd vuepress && yarn eslint --ext .js,.vue . --fix
+        run: cd vuepress && yarn eslint --ext .js,.vue .

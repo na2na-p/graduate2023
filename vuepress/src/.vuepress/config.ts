@@ -11,7 +11,7 @@ export default defineUserConfig({
         ['meta', { name: 'robots', content: 'noindex, nofollow, noarchive' }],
     ],
 
-    dest: '../docs',
+    // dest: '../docs',
 
     theme: defaultTheme({
         navbar: [

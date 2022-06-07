@@ -24,7 +24,7 @@ surveinyance は API を用いて監視対象のサーバとやり取りをし�
 ### サーバで任意のタイミングで発行する方法
 サーバ側へSSH等で接続し、ターミナルで
 
-```s
+```
 $ surveinyance key-generate
 ```
 

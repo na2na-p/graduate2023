@@ -1,7 +1,8 @@
 {
   "scripts": {
     "src:dev": "vuepress dev src",
-    "src:build": "vuepress build src"
+    "src:build": "vuepress build src",
+    "lint": "yarn eslint --ext .js,.vue . --fix"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.27.0",

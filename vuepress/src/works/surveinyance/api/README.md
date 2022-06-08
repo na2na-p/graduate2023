@@ -3,26 +3,27 @@
 ## API について
 
 surveinyance は API を用いて監視対象のサーバとやり取りをします。ただし、どの API を用いるにもソフトウェアや対象の性質上アクセストークンを必要とします。すべてハッシュ化された上でデータベースに保管されるため、再度表示することはできません。  
-ストリーミングAPIも用意しており、リアルタイムな監視を可能とします。  
-トークンの発行方法は下に記述します。
+ストリーミング API も用意しており、リアルタイムな監視を可能とします。
 
-## エンドポイントについて
 ### Surveinyance API
 
-[こちら](/works/surveinyance/api/endpoints.html)のページを参照してください。
+[こちら](/works/surveinyance/api/SurveinyanceAPI)のページを参照してください。
 
-### ストリーミングAPI
+### ストリーミング API
 
-[こちら](/works/surveinyance/api/streaming.html)のページを参照してください。
+[こちら](/works/surveinyance/api/streaming)のページを参照してください。
 
 ## アクセストークンについて
+
+HTTP API を用いて発行する方法の他に以下の方法も提供しています。
 
 ### セットアップ時に発行する方法
 
 セットアップ完了時にアクセストークンを表示します。これは一度しか表示されないため、注意する必要があります。
 
 ### サーバで任意のタイミングで発行する方法
-サーバ側へSSH等で接続し、ターミナルで
+
+サーバ側へ SSH 等で接続し、ターミナルで
 
 ```
 $ surveinyance key-generate
@@ -37,9 +38,11 @@ $ surveinyance key-generate
 
 ### サーバからトークンを無効にする場合
 
-サーバ側へSSH等で接続し、ターミナルで
+サーバ側へ SSH 等で接続し、ターミナルで
+
 ```
 $ surveinyance key-terminateAll # すべてのキーを無効に
 $ surveinyance key-terminate <token> # 指定したトークンのキーを無効に
 ```
+
 とすることで実行できます。

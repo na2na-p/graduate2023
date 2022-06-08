@@ -26,6 +26,7 @@ export default defineUserConfig({
                     { text: 'Surveinyance', link: '/works/surveinyance/' },
                     { text: 'Gomamayo-deno', link: '/works/gomamayo-deno/' },
                     { text: 'chmodジェネレータ', link: '/works/chmodGenerator/' },
+                    { text: 'フェイストラッカー', link: '/works/faceTracker/' },
                 ]
             },
             {

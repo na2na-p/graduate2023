@@ -25,7 +25,7 @@ export default defineUserConfig({
                     { text: 'このページについて', link: '/works/aboutThisPage.html' },
                     { text: 'Surveinyance', link: '/works/surveinyance/' },
                     { text: 'Gomamayo-deno', link: '/works/gomamayo-deno/' },
-                    { text: 'chmodGenerator', link: '/works/chmodGenerator/' },
+                    { text: 'chmodジェネレータ', link: '/works/chmodGenerator/' },
                 ]
             },
             {

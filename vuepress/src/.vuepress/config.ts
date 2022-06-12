@@ -1,6 +1,7 @@
 import {defaultTheme, defineUserConfig} from 'vuepress';
 import {path} from '@vuepress/utils';
 import {registerComponentsPlugin} from '@vuepress/plugin-register-components';
+import {containerPlugin} from '@vuepress/plugin-container';
 
 export default defineUserConfig({
   base: '/',
@@ -9,6 +10,8 @@ export default defineUserConfig({
   description: '就職作品プレゼンテーション',
   head: [
     ['meta', {name: 'robots', content: 'noindex, nofollow, noarchive'}],
+    ['link', {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c'}],
+    ['link', {rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.15.3/css/all.css'}],
   ],
 
   // dest: '../docs',
@@ -37,10 +40,32 @@ export default defineUserConfig({
         ],
       },
     ],
+    colorMode: 'auto',
+    colorModeSwitch: true,
   }),
   plugins: [
-    registerComponentsPlugin({
-      componentsDir: path.resolve(__dirname, './components'),
-    }),
+    [
+      registerComponentsPlugin({
+        componentsDir: path.resolve(__dirname, './components'),
+      }),
+    ], [
+      containerPlugin({
+        type: 'tip',
+        before: (info: string): string => `<div class="custom-container tip"><i class="fas fa-info"></i>${info ? `<p class="custom-container-title">${info}</p>` : ''}\n`,
+        after: (): string => '</div>\n',
+      }),
+    ], [
+      containerPlugin({
+        type: 'warning',
+        before: (info: string): string => `<div class="custom-container warning"><i class="fas fa-exclamation-triangle"></i>${info ? `<p class="custom-container-title">${info}</p>` : ''}\n`,
+        after: (): string => '</div>\n',
+      }),
+    ], [
+      containerPlugin({
+        type: 'danger',
+        before: (info: string): string => `<div class="custom-container danger"><i class="fas fa-exclamation-circle"></i>${info ? `<p class="custom-container-title">${info}</p>` : ''}\n`,
+        after: (): string => '</div>\n',
+      }),
+    ],
   ],
 });

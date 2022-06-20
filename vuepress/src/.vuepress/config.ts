@@ -45,22 +45,20 @@ export default defineUserConfig({
   }),
   plugins: [
     [
+      // @ts-ignore
       registerComponentsPlugin({
         componentsDir: path.resolve(__dirname, './components'),
       }),
-    ], [
       containerPlugin({
         type: 'tip',
         before: (info: string): string => `<div class="custom-container tip"><i class="fas fa-info"></i>${info ? `<p class="custom-container-title">${info}</p>` : ''}\n`,
         after: (): string => '</div>\n',
       }),
-    ], [
       containerPlugin({
         type: 'warning',
         before: (info: string): string => `<div class="custom-container warning"><i class="fas fa-exclamation-triangle"></i>${info ? `<p class="custom-container-title">${info}</p>` : ''}\n`,
         after: (): string => '</div>\n',
       }),
-    ], [
       containerPlugin({
         type: 'danger',
         before: (info: string): string => `<div class="custom-container danger"><i class="fas fa-exclamation-circle"></i>${info ? `<p class="custom-container-title">${info}</p>` : ''}\n`,

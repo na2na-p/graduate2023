@@ -31,6 +31,12 @@
 - 監視対象のサーバーの iptables を触ることができる。
 - (余力あれば)Terraform/Kubernetes 関係で何か。
 
+### 使用したもの
+- Node.js
+- NestJS
+- Prisma
+- PostgreSQL
+
 ## メモ
 - API仕様は[こちら](/works/surveinyance/api)のページに記載しています。
 - ~~認証はOAuth?(すでにある実装例としてはMiAuthあたり？)~~ 未定

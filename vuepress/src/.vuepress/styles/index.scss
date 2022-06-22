@@ -1,5 +1,5 @@
 :root {
-  --c-brand: #e67ed9 !important;
+  --c-brand: #c55db7 !important;
   --c-brand-light: #f7aeed !important;
 
   --c-bg-navbar: rgba(255, 255, 255, 0.7);
@@ -10,12 +10,13 @@
 }
 
 html.dark {
-  // --c-bg: rgb(27, 30, 33);
-  --c-bg-navbar: rgb(27, 30, 33, 0.7);
+  --c-bg: rgb(23, 3, 27);
+  --c-bg-navbar: rgba(32, 5, 34, 0.7);
   --c-bg-navbar-dropdown: var(--c-bg-light);
   --c-bg-navbar-dropdown-shadow: rgba(0, 0, 0, 0.3);
 
   --c-tip: #678a31;
+  --c-tip-bg: #321035;
   --c-warning: #b79a0f;
   --c-warning-bg: #353125;
   --c-warning-title: #dec340;

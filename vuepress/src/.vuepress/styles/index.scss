@@ -1,6 +1,6 @@
 :root {
-  --c-brand: #86b300 !important;
-  --c-brand-light: #acde17 !important;
+  --c-brand: #e67ed9 !important;
+  --c-brand-light: #f7aeed !important;
 
   --c-bg-navbar: rgba(255, 255, 255, 0.7);
   --c-bg-navbar-dropdown: var(--c-bg);
@@ -10,7 +10,7 @@
 }
 
 html.dark {
-  --c-bg: rgb(27, 30, 33);
+  // --c-bg: rgb(27, 30, 33);
   --c-bg-navbar: rgb(27, 30, 33, 0.7);
   --c-bg-navbar-dropdown: var(--c-bg-light);
   --c-bg-navbar-dropdown-shadow: rgba(0, 0, 0, 0.3);

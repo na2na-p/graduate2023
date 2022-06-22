@@ -33,4 +33,4 @@
 
 ## メモ
 - API仕様は[こちら](/works/surveinyance/api)のページに記載しています。
-- 認証はOAuth?(すでにある実装例としてはMiAuthあたり？)
+- ~~認証はOAuth?(すでにある実装例としてはMiAuthあたり？)~~ 未定

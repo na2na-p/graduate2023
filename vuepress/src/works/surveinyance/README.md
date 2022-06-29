@@ -31,6 +31,10 @@
 - 監視対象のサーバーの iptables を触ることができる。
 - (余力あれば)Terraform/Kubernetes 関係で何か。
 
+### データベース設計
+
+[WIP](/works/surveinyance/db.html)
+
 ### 使用したもの
 
 - Node.js

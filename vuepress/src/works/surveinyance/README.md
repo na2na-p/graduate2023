@@ -17,8 +17,8 @@
 - クライアントアプリケーションとは、WebSocket を用いて通信をする。仕様は別に定める。
 - ~~バックエンドは、Node.js,Deno,PHP,Python,その他で実行できる。~~
 - 機能は Node.js 版を最優先に開発する。
-- 個人を識別するためにAPIキーを発行させる。これはインストール時に発行する。キーは複数発行することができるが、最初に発行したものを使用してサーバーに接続した上で作業する。
-- データベースにはPostgreSQLを使用する。
+- 個人を識別するために API キーを発行させる。これはインストール時に発行する。キーは複数発行することができるが、最初に発行したものを使用してサーバーに接続した上で作業する。
+- データベースには PostgreSQL を使用する。
 
 ### クライアント
 
@@ -31,6 +31,22 @@
 - 監視対象のサーバーの iptables を触ることができる。
 - (余力あれば)Terraform/Kubernetes 関係で何か。
 
+### データベース設計
+
+[WIP](/works/surveinyance/db.html)
+
+### 使用したもの
+
+- Node.js
+- NestJS
+- Prisma
+- PostgreSQL
+
 ## メモ
-- API仕様は[こちら](/works/surveinyance/api)のページに記載しています。
-- 認証はOAuth?(すでにある実装例としてはMiAuthあたり？)
+
+- API 仕様は[こちら](/works/surveinyance/api)のページに記載しています。
+- ~~認証は OAuth?(すでにある実装例としては MiAuth あたり？)~~ 未定
+
+## レイアウトイメージ
+
+[こちらに準備しています。](/works/surveinyance/assets.html)

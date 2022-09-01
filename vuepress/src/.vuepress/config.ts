@@ -25,11 +25,15 @@ export default defineUserConfig({
       {
         text: 'Works',
         children: [
-          {text: 'このページについて', link: '/works/aboutThisPage.html'},
-          {text: 'Surveinyance', link: '/works/surveinyance/'},
-          {text: 'Gomamayo-deno', link: '/works/gomamayo-deno/'},
-          {text: 'chmodジェネレータ', link: '/works/chmodGenerator/'},
-          {text: 'フェイストラッカー', link: '/works/faceTracker/'},
+          {text: '作品一覧', link: '/works/'},
+          {text: '個々の作品', children: [
+            {text: 'このページについて', link: '/works/aboutThis/'},
+            {text: '2na2-Discord', link: '/works/2na2-Discord/'},
+            {text: 'Surveinyance', link: '/works/surveinyance/'},
+            {text: 'Gomamayo-deno', link: '/works/gomamayo-deno/'},
+            {text: 'chmodジェネレータ', link: '/works/chmodGenerator/'},
+            {text: 'フェイストラッカー', link: '/works/faceTracker/'},
+          ]},
         ],
       },
       {

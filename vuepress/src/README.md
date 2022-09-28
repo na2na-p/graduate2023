@@ -10,7 +10,6 @@ HAL 太郎
 
 ## 使用技術
 
-- TypeScript
 - PHP
 - Java
 - Kotlin
@@ -19,7 +18,8 @@ HAL 太郎
   - NestJS
   - Prisma
 - React
-  - ReactAdmin を利用した開発経験あり
+  - ReactAdmin を利用した開発/業務経験あり
+- TypeScript
 - SQL
 - GraphQL
 - Docker

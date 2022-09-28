@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "src:dev": "vuepress dev src",
-    "src:build": "vuepress build src",
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
     "lint": "yarn eslint --ext .js,.vue,.ts . --fix"
   },
   "devDependencies": {

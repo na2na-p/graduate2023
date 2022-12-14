@@ -1,3 +1,6 @@
 [submodule "surveinyance"]
 	path = surveinyance
 	url = https://github.com/na2na-p/surveinyance.git
+[submodule "vuepress/src/.vuepress/components/IpCalc/calc-ip-address"]
+	path = vuepress/src/.vuepress/components/IpCalc/calc-ip-address
+	url = git@github.com:na2na-p/calc-ip-address.git

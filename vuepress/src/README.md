@@ -2,7 +2,7 @@
 
 ## 名前
 
-HAL 太郎
+A.Yamamoto
 
 ## 希望職種
 
@@ -18,7 +18,6 @@ HAL 太郎
   - NestJS
   - Prisma
 - React
-  - ReactAdmin を利用した開発/業務経験あり
 - TypeScript
 - SQL
 - GraphQL

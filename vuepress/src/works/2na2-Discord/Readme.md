@@ -14,7 +14,7 @@
 ## 工夫した点
 
 - CI/CD 完備
-  - main に取り込まれるのに Linter と test の通過が必要
+  - main に取り込まれるのに最低限 Linter と test の通過が必要
   - パッケージ類は Renovate による自動更新
   - main マージ後に AWS ECS へ自動デプロイ(AWS CodePipeline 利用)
 

@@ -18,6 +18,9 @@
   - パッケージ類は Renovate による自動更新
   - main マージ後に AWS ECS へ自動デプロイ(AWS CodePipeline 利用)
 
+![image](https://user-images.githubusercontent.com/49822810/209613051-88819772-3ecb-4ba1-a5cb-0bd6c8b31378.png)
+
+
 ## 成果物
 
 [Github](https://github.com/na2na-p/2na2-Discord)

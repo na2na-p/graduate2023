@@ -1,4 +1,4 @@
-import {defaultTheme, defineUserConfig} from 'vuepress';
+import {defaultTheme, defineUserConfig} from 'vuepress-vite';
 import {path} from '@vuepress/utils';
 import {registerComponentsPlugin} from '@vuepress/plugin-register-components';
 import {containerPlugin} from '@vuepress/plugin-container';

@@ -28,11 +28,12 @@ export default defineUserConfig({
           {text: '作品一覧', link: '/works/'},
           {text: '個々の作品', children: [
             {text: 'このページについて', link: '/works/aboutThis/'},
+            {text: 'TwitterライクなWebアプリ', link: '/works/sns-app/'},
+            {text: 'Frontend Showcase', link: '/works/frontend-showcase/'},
             {text: '2na2-Discord', link: '/works/2na2-Discord/'},
             {text: 'Gomamayo-deno', link: '/works/gomamayo-deno/'},
             {text: 'フェイストラッカー', link: '/works/faceTracker/'},
             // {text: 'Surveinyance', link: '/works/surveinyance/'},
-            // {text: 'chmodジェネレータ', link: '/works/chmodGenerator/'},
           ]},
         ],
       },
@@ -40,7 +41,7 @@ export default defineUserConfig({
         text: 'Links',
         children: [
           {text: 'GitHub', link: 'https://github.com/na2na-p'},
-          {text: 'vuepressGuide(とりあえず)', link: '/guide'},
+          {text: 'Qiita', link: 'https://qiita.com/na2na'},
         ],
       },
     ],

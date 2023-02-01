@@ -4,6 +4,15 @@
 
 A.Yamamoto
 
+## 作品紹介
+
+個々の作品詳細ページは、右上の Works から移動できます。
+
+## 各種リンク
+
+- Github: [na2na-p](https://github.com/na2na-p)
+- Qiita: [na2na](https://qiita.com/na2na)
+
 ## 希望職種
 
 実装者/運用者/設計者を兼ねるフルスタックエンジニア

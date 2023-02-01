@@ -2,6 +2,11 @@
 
 コミュニケーションツールである Discord で利用できる Bot
 
+## テーマやコンセプト
+
+- Discord Bot
+- 機能をモジュールに分割し、機能追加等メンテナンス性の高い設計を目指す
+
 ## 主な機能
 
 - サイコロ
@@ -20,7 +25,6 @@
   - main マージ後に AWS ECS へ自動デプロイ(AWS CodePipeline 利用)
 
 ![image](https://user-images.githubusercontent.com/49822810/209613051-88819772-3ecb-4ba1-a5cb-0bd6c8b31378.png)
-
 
 ## 成果物
 

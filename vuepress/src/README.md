@@ -10,15 +10,19 @@ A.Yamamoto
 
 ## 使用技術
 
-- PHP
-- Java
-- Kotlin
+- TypeScript
 - Node.js
   - Express
   - NestJS
   - Prisma
 - React
-- TypeScript
+- PHP
+  - Laravel
+- Java
+  - Java EE
+- Kotlin
+  - Android
+  - CLI ツール
 - SQL
 - GraphQL
 - Docker

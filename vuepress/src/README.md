@@ -36,6 +36,27 @@ A.Yamamoto
 - GraphQL
 - Docker
 
+## 利用環境
+
+### OS
+
+- MacOS(メイン)
+- Windows11(WSL2)
+- Ubuntu22.10
+
+### エディタ
+
+- Visual Studio Code
+- 各種 JetBrains 製エディタ(Windows では WSLg 使用)
+
+### おもなデプロイ先
+
+- Cloudflare Pages
+- オンプレミス(Cloudflare tunnel 利用)
+- Amazon Web Services(EC2 や ECS,Lightsail がメイン)
+- Microsoft Azure
+- Oracle Cloud Infrastructure
+
 ## 保有資格
 
 - 基本情報技術者(2021 年 7 月)

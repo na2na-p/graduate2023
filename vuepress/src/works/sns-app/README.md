@@ -13,6 +13,15 @@
 [発表スライド](https://na2na-sns-app-slide.pages.dev)  
 矢印キーでスライド送りができます。
 
+## 参考画像
+
+実際の投稿画面
+![投稿画面](https://misskey.na2na.dev/media/media/4c222d3e-98ba-407a-b1e7-cd9fce3547b0.png)
+簡単なインフラ構成図
+![インフラ構成図](https://misskey.na2na.dev/media/media/9f6070d8-a7f1-44bd-b4b5-4ec17eb6f931.png)
+CI の様子
+![CIの様子](https://misskey.na2na.dev/media/media/069b7a35-ca7b-4300-88d3-0542f6e7b22e.png)
+
 ## 利用技術
 
 | 成果物         | Twitter ライクな Web アプリケーション                                    |
@@ -46,7 +55,7 @@ PHP/Laravel を利用してバックエンドを構築します。
 
 ### フロントエンド構築
 
-主に Vite/React + TypeScript を利用しています。
+Vite/React + TypeScript を利用しています。
 
 主に以下のことを考えています。
 

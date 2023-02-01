@@ -25,15 +25,15 @@ export default defineUserConfig({
       {
         text: 'Works',
         children: [
-          {text: '作品一覧', link: '/works/'},
-          {text: '個々の作品', children: [
+          {text: '作品', children: [
             {text: 'このページについて', link: '/works/aboutThis/'},
             {text: 'TwitterライクなWebアプリ', link: '/works/sns-app/'},
             {text: 'Frontend Showcase', link: '/works/frontend-showcase/'},
             {text: '2na2-Discord', link: '/works/2na2-Discord/'},
             {text: 'Gomamayo-deno', link: '/works/gomamayo-deno/'},
+            {text: 'IPアドレス計算機', link: '/works/ip-calculator/'},
+            {text: 'アクセサリ作成(3Dモデリング)', link: '/works/create-accessory/'},
             {text: 'フェイストラッカー', link: '/works/faceTracker/'},
-            // {text: 'Surveinyance', link: '/works/surveinyance/'},
           ]},
         ],
       },

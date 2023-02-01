@@ -26,6 +26,10 @@
 
 ![image](https://user-images.githubusercontent.com/49822810/209613051-88819772-3ecb-4ba1-a5cb-0bd6c8b31378.png)
 
+## 今後の課題
+
+- 機能を Class ベースで作成しており、どうにもテストしづらく感じています。関数ベースに作り直す予定があります。
+
 ## 成果物
 
 [Github](https://github.com/na2na-p/2na2-Discord)

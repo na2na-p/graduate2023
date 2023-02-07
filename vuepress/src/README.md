@@ -19,22 +19,7 @@ A.Yamamoto
 
 ## 使用技術
 
-- TypeScript
-- Node.js
-  - Express
-  - NestJS
-  - Prisma
-- React
-- PHP
-  - Laravel
-- Java
-  - Java EE
-- Kotlin
-  - Android
-  - CLI ツール
-- SQL
-- GraphQL
-- Docker
+![利用技術](https://nmnm.na2na.dev/media/nmnm/d21aadd2-9ae7-42dc-ae14-b51dd774cd6d.png)
 
 ## 利用環境
 

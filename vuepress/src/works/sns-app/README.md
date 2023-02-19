@@ -10,6 +10,8 @@
 
 [リポジトリ](https://github.com/na2na-p/sns-app)
 
+[API 仕様](https://oas-sns-app.na2na.dev)
+
 [発表スライド](https://na2na-sns-app-slide.pages.dev)  
 矢印キーでスライド送りができます。
 
@@ -42,6 +44,11 @@ CI の様子
 PHP/Laravel を利用してバックエンドを構築します。
 
 構築の際、以下のことを考慮して行います。
+
+- Web サーバー
+
+  - laravel.test を魔改造して nginx + php-fpm コンテナの組み合わせで動くように
+    - sail デフォルトの laravel.test はあくまで開発用で PHP ビルトインサーバーで動いており、並列リクエストをさばけないため。
 
 - CORS 設定
   - 無意味に\*をつけないこと。開発中でも同じ

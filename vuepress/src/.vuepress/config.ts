@@ -6,8 +6,8 @@ import {containerPlugin} from '@vuepress/plugin-container';
 export default defineUserConfig({
   base: '/',
   lang: 'ja-JP',
-  title: '就職作品プレゼンテーション',
-  description: '就職作品プレゼンテーション',
+  title: 'HAL EVENT WEEK',
+  description: 'HAL EVENT WEEK',
   head: [
     ['meta', {name: 'robots', content: 'noindex, nofollow, noarchive'}],
     ['link', {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c'}],

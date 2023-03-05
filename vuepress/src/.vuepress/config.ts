@@ -6,8 +6,8 @@ import {containerPlugin} from '@vuepress/plugin-container';
 export default defineUserConfig({
   base: '/',
   lang: 'ja-JP',
-  title: '就職作品プレゼンテーション',
-  description: '就職作品プレゼンテーション',
+  title: 'HAL EVENT WEEK',
+  description: 'HAL EVENT WEEK',
   head: [
     ['meta', {name: 'robots', content: 'noindex, nofollow, noarchive'}],
     ['link', {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c'}],
@@ -27,7 +27,7 @@ export default defineUserConfig({
         children: [
           {text: '作品', children: [
             {text: 'このページについて', link: '/works/aboutThis/'},
-            {text: 'TwitterライクなWebアプリ', link: '/works/sns-app/'},
+            {text: 'TwitterライクなWebアプリ', link: '/works/hew/'},
             {text: 'Frontend Showcase', link: '/works/frontend-showcase/'},
             {text: '2na2-Discord', link: '/works/2na2-Discord/'},
             {text: 'Gomamayo-deno', link: '/works/gomamayo-deno/'},
